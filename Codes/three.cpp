@@ -1,8 +1,11 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 int main() {
-    int a, b;
-    cin >> a >> b;
-    cout <<"X = "<< a + b << endl;
+    const double n = 3.14159;
+    double R;
+    cin >> R;
+    cout << fixed << setprecision(4);
+    cout <<"A="<< n * R*R << endl;
     return 0;
 }
